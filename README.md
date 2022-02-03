@@ -2,7 +2,8 @@
 
 ```
 import requests
-url = 'https://raw.githubusercontent.com/mrjeevan/aiml/main/Backpropagation.ipynb'
+name = 'second'
+url = f'https://raw.githubusercontent.com/mrjeevan/aiml/main/{name}.ipynb'
 r = requests.get(url, allow_redirects=True)
-open('name.ipynb', 'wb').write(r.content)
+open(f'{name}.ipynb', 'wb').write(r.content)
 ```
