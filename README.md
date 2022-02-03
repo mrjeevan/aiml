@@ -1,6 +1,8 @@
 # aiml
 
 ```
+# p = [a,ao,bkp,ce,em,finds,id3,knn,lw,nbc]
+
 import requests
 name = 'second'
 url = f'https://raw.githubusercontent.com/mrjeevan/aiml/main/{name}.ipynb'
